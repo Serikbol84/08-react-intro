@@ -1,0 +1,19 @@
+.header {
+    font-family: Kanit;
+    font-weight: 500;
+}
+
+.container {
+    /* margin: 0 160px; */
+}
+
+.header-logo-1 {
+    padding: 24px 0;
+    font-size: 18px;
+}
+
+.header-logo-2 {
+    padding: 64px 0;
+    font-size: 48px;
+    line-height: 120px;
+}
