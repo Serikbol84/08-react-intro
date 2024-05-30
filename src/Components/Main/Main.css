@@ -97,3 +97,7 @@
     border: 1px solid rgba(111, 109, 109, 0.364);
     display: block;
 }
+
+.main div:last-child.news-list .divider span::after{
+    margin-bottom: 0;
+}
