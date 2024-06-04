@@ -1,3 +1,11 @@
+.header-logo-2 {
+    padding: 64px 0;
+    font-family: Kanit;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120px;
+}
+
 .news-block {
     
     display: flex;

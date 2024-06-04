@@ -8,6 +8,7 @@ import actions from '../../img/actions.svg'
 const Main = () => {
     return (<section className="main">
         <div className="container">
+            <div className="header-logo-2">Hello, world!</div>
             <div className="news-list">
                 <div className="news-block">
                     <div className="news">
