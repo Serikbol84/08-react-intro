@@ -109,3 +109,7 @@
 .main div:last-child.news-list .divider span::after{
     margin-bottom: 0;
 }
+
+.main {
+    margin-bottom: 654px;
+}

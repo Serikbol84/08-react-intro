@@ -1,7 +1,7 @@
 .footer {
     padding-bottom: 32px;
     display: flex;
-    height: 886px;
+    min-height: 200px;
     align-items: end;
     justify-content: end;
     text-align: right;

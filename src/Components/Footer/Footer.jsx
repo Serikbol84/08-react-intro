@@ -3,7 +3,7 @@ import './footer.css'
 const Footer = () => {
     return (<section className="footer">
         <div className="container">
-        <div class="footer-menu">
+        <div className="footer-menu">
                 <p>
                     Credits: photos from
                     <a href="#!">Unsplash.com,</a> icons from 

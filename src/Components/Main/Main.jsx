@@ -4,6 +4,7 @@ import newsImg1 from '../../img/1.svg'
 import newsImg2 from '../../img/2.svg'
 import newsImg3 from '../../img/3.svg'
 import actions from '../../img/actions.svg'
+import { Link } from 'react-router-dom'
 
 const Main = () => {
     return (<section className="main">
@@ -23,10 +24,10 @@ const Main = () => {
                             </p>
                         </div>
                         <div className="text">
-                            <h1 class="title">
-                                <a href="index2.html">
+                            <h1 className="title">
+                                <Link to="/content">
                                     7 Practical CSS Tips
-                                </a>
+                                </Link>
                             </h1>
                             <p>
                                 You not only learn more Python by implementing what you already know but, 
@@ -34,10 +35,10 @@ const Main = () => {
                             </p>
                         </div>
 
-                        <div class="button-actions">
-                        <div class="button-line">
-                            <button class="btn">
-                                <a href="#!">Java Script</a>
+                        <div className="button-actions">
+                        <div className="button-line">
+                            <button className="btn">
+                                <Link to="/content">Java Script</Link>
                             </button>
                             <p>
                                 <a href="#!">12 min read </a>
@@ -45,7 +46,7 @@ const Main = () => {
                                 <a href="#!"> Selected for you</a>
                             </p>
                         </div>
-                        <div class="actions">
+                        <div className="actions">
                             <img src={actions} alt="" />
                         </div>
                         
@@ -58,8 +59,8 @@ const Main = () => {
 
                 </div>
 
-                <div class="divider">
-                    <span class="divider"> </span>
+                <div className="divider">
+                    <span className="divider"> </span>
                 </div>
             </div>
 
@@ -77,10 +78,10 @@ const Main = () => {
                             </p>
                         </div>
                         <div className="text">
-                            <h1 class="title">
-                                <a href="#!">
+                            <h1 className="title">
+                                <Link to="/content">
                                     7 Practical CSS Tips
-                                </a>
+                                </Link>
                             </h1>
                             <p>
                                 Recently, I’ve been automating tasks more than often due to my lack of time. Thanks to that I have 5 
@@ -90,10 +91,10 @@ const Main = () => {
                             </p>
                         </div>
 
-                        <div class="button-actions">
-                        <div class="button-line">
-                            <button class="btn">
-                                <a href="#!">Java Script</a>
+                        <div className="button-actions">
+                        <div className="button-line">
+                            <button className="btn">
+                                <Link to="/content">Java Script</Link>
                             </button>
                             <p>
                                 <a href="#!">12 min read </a>
@@ -101,7 +102,7 @@ const Main = () => {
                                 <a href="#!"> Selected for you</a>
                             </p>
                         </div>
-                        <div class="actions">
+                        <div className="actions">
                             <img src={actions} alt="" />
                         </div>
                         
@@ -114,8 +115,8 @@ const Main = () => {
 
                 </div>
                 
-                <div class="divider">
-                    <span class="divider"> </span>
+                <div className="divider">
+                    <span className="divider"> </span>
                 </div>
             </div>
 
@@ -133,10 +134,10 @@ const Main = () => {
                             </p>
                         </div>
                         <div className="text">
-                            <h1 class="title">
-                                <a href="index2.html">
+                            <h1 className="title">
+                                <Link to="/content">
                                     7 Practical CSS Tips
-                                </a>
+                                </Link>
                             </h1>
                             <p>
                             Recently, I’ve been automating tasks more than often due to my lack of time. Thanks to that I have 5 
@@ -146,10 +147,10 @@ const Main = () => {
                             </p>
                         </div>
 
-                        <div class="button-actions">
-                        <div class="button-line">
-                            <button class="btn">
-                                <a href="#!">Java Script</a>
+                        <div className="button-actions">
+                        <div className="button-line">
+                            <button className="btn">
+                                <Link to="/content">Java Script</Link>
                             </button>
                             <p>
                                 <a href="#!">12 min read </a>
@@ -157,7 +158,7 @@ const Main = () => {
                                 <a href="#!"> Selected for you</a>
                             </p>
                         </div>
-                        <div class="actions">
+                        <div className="actions">
                             <img src={actions} alt="" />
                         </div>
                         
@@ -170,8 +171,8 @@ const Main = () => {
 
                 </div>
                 
-                <div class="divider">
-                    <span class="divider"> </span>
+                <div className="divider">
+                    <span className="divider"> </span>
                 </div>
             </div>
         </div>
